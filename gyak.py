@@ -31,7 +31,7 @@ print("=" * 50)
 print("2. A nyerőszámok (gyakoriság szerint):")
 print("-" * 50)
 for szam, gyakorisag in rendezett:
-    print(f"   {szam}: {gyakorisag} alkalommal")
+    print(f"{szam}: {gyakorisag} alkalommal")
 print()
 """
 
@@ -68,13 +68,13 @@ for szam in tipp:
 
 print()
 print("=" * 50)
-print(f"   Az ön tippje: {', '.join(tipp)}")
+print(f"   Az ön tippje: {', '.(tipp)}")
 print(f"   Találat: {talalaatok} szám")
 for szam in tipp:
     if szam in szamok:
-        print(f"      - {szam}: {szamok[szam]} alkalommal húzták")
+        print(f"{szam}: {szamok[szam]} alkalommal húzták")
     else:
-        print(f"      - {szam}: nem fordult elő")
+        print(f"{szam}: nem fordult elő")
 print()
 """
 
